@@ -29,12 +29,18 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Login Modal Functions
 function openLoginModal() {
-    document.getElementById('loginModal').style.display = 'block';
+    const modal = document.getElementById('loginModal');
+    modal.style.display = 'block';
+    modal.classList.add('show');
     document.body.style.overflow = 'hidden';
 }
 
 function closeLoginModal() {
-    document.getElementById('loginModal').style.display = 'none';
+    const modal = document.getElementById('loginModal');
+    modal.classList.remove('show');
+    setTimeout(() => {
+        modal.style.display = 'none';
+    }, 300);
     document.body.style.overflow = 'auto';
 }
 
