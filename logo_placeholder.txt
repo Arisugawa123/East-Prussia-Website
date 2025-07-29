@@ -1,0 +1,21 @@
+LOGO PLACEHOLDER
+================
+
+To complete your East Prussian Roblox Community website, please:
+
+1. Copy your logo file "C:\Users\ironw\Downloads\asdascc b.png" to this directory
+2. Rename it to "logo.png"
+3. Also create a smaller version (32x32 pixels) named "favicon.png" for the browser tab icon
+
+The website is currently set up to use:
+- logo.png (for the main logo in navigation and footer)
+- favicon.png (for the browser tab icon)
+
+Both files should be in PNG format for best compatibility.
+
+Current logo references in the code:
+- Navigation bar logo
+- Footer logo
+- Favicon in browser tab
+
+The website will work without these files, but will show broken image icons until you add them.
